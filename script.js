@@ -194,7 +194,7 @@ function setTarget() {
     const drawFn = (c) => drawSingleMessage(c, messages[messageIndex]);
     points = getPointsFromCanvas(drawFn);
     currentShape = "text";
-    hint.textContent = `Dòng ${messageIndex + 1}/${messages.length}`;
+    hint.textContent = ``;
   }
 
   while (particles.length < points.length) {
